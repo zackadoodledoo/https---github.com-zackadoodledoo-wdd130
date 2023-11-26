@@ -1,3 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: borderbox;
+}
+   
+aside{
+    width: 30em;
+    text-align: center;
+}
+aside img {
+    width: 200px;
+    height: auto;
+}
+adise h2 {
+    poistion: absolute;
+    top: 47px;
+    left: 150px;
+}
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -19,4 +38,27 @@ img{
 }
 p {
     padding: 10px;
+}
+
+footer {
+    margin-top: 1em;
+    border-top: 1px solid #889;
+    text-align: center;
+}
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1 rem;
+    background-color: #ddd;
+    color: #000;
+}
+main img {
+    /* You will most likely have other declaraions here */
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0, 0, 30px gray;
+    float: right;
 }
